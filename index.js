@@ -92,33 +92,33 @@ ${github!=''?'## github link \n'+ github: ''}
 
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Credits](#Credits)
-- [License](#License)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Installation
+## installation
 ${installation}
 
-## Usage
+## usage
 ${usage}
-    # Screenshot
+    # screenshot
     ![alt text](${Screenshot})
  
-## Credits
+## credits
 ${credits}
 
-## License
+## license
 ${Badge}
 ${Link}
 
 
-## Tests
+## tests
 ${tests}
 
-## Questions
+## questions
 - Please send me email if you had any questions, my email address is :\n ${questions}
 
 `;
@@ -128,7 +128,10 @@ const init = () => {
     console.clear();
     promptUser()
       .then((answers) => writeToFile(answers.fileName, answers))
-      .then(() => console.log(`Successfully wrote to ${answers.fileName}`))
+      .then(() => {
+                    console.clear();
+                    console.log(`Successfully wrote to file`);
+                  })
       .catch((err) => console.error(err));
   };
 // Function call to initialize app
