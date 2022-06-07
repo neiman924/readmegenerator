@@ -61,7 +61,7 @@ const promptUser = () => {
         type: 'rawlist',
         name: 'license',
         message: 'The last section of a high-quality README file is the licens, add the license of your project if you want to: ',
-        choices: ['Apache', 'BSD', 'Attribution','GNU','IBM','MIT','Mozilla','Perl']
+        choices: ['none','Apache', 'BSD', 'Attribution','GNU','IBM','MIT','Mozilla','Perl']
     },
     {
         type: 'input',
