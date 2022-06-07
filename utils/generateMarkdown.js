@@ -30,7 +30,7 @@ function renderLicenseBadge(badge) {
       result = 'https://opensource.org/licenses/Artistic-2.0'
     break;  
   }
-  return result;
+  if (result!=undefined){return result}else{return 'none'} ;
 }
 
 
@@ -62,7 +62,7 @@ function renderLicenseLink(link) {
       result = '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]'
     break;  
   }
-  return result;
+  if (result!=undefined){return result}else{return 'none'} ;
 }
 
 // TODO: Create a function that returns the license section of README

@@ -104,15 +104,16 @@ ${installation}
 
 ## usage
 ${usage}
-    # screenshot
+    ## screenshot
     ![alt text](${Screenshot})
  
 ## credits
 ${credits}
 
 ## license
-${Badge}
-${Link}
+
+${Badge!='undefined'?'# '+Badge:'none'}
+${Link!='undefined'?'# '+Link:'none'}
 
 
 ## tests

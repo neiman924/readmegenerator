@@ -39,7 +39,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## screenshot
-![Alt text](/screenshot.png?raw=true)
+![Alt text](https://raw.githubusercontent.com/neiman924/readmegenerator/main/Screenshot.png)
 ## github link
 
 
@@ -54,7 +54,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
-    ![alt text](./Screenshot.png)
+    ![alt text](https://raw.githubusercontent.com/neiman924/readmegenerator/main/Screenshot.png)
     ```
 
 ## Credits
